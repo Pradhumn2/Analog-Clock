@@ -1,0 +1,35 @@
+#container{  
+    border: 5px solid black;
+    border-radius: 5px;
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw; 
+    background: url(image.jfif) no-repeat;
+    background-size: 100%;
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background: rgb(119, 109, 109);
+    border-radius: 10px; 
+    transform-origin: bottom;
+}
+#hour{
+    width: 1%;
+    height: 15%;
+    top: 35%;
+    left: 49.5%;  
+}
+#minute{
+    width: 0.6%;
+    height: 24%;
+    top: 26%;
+    left: 49.65%; 
+}
+#second{
+    width: 0.2%;
+    height: 20%;
+    top: 30%;
+    left: 49.75%;
+}
